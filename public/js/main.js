@@ -1,1 +1,1 @@
-main.js
+angular.module('alurapic', []);
