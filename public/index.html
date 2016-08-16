@@ -24,9 +24,9 @@
             <!-- novidade, a row com o campo de busca -->
             <div class="row">
                 <div class="col-md-12">
-                <form>
-                     <input class="form-control" placeholder="filtrar pelo título da foto" ng-model="filtro">
-                </form>
+                    <form>
+                        <input class="form-control" placeholder="filtrar pelo título da foto" ng-model="filtro" ng-model-options="{ debounce: 500 }">
+                    </form>
                 </div> <!-- fim col-md-12 -->
             </div> <!-- fim row -->
 
